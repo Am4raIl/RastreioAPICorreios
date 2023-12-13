@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #eaecee;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.25);
+}
+
+header img {
+    height: 3rem;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 2rem;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cep {
+    margin-right: .6rem;
+    margin-left: 1rem;
+    border-radius: 25px;
+    background-color: #eaeaee;
+    border: 1px solid;
+    padding: .8rem;
+    box-shadow: 6px 7px 0px -3px rgba(0,0,0,0.8);
+}
+
+.button{
+
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    background: linear-gradient(176deg, #3b48fc 0%, #000661 100%);
+    padding: 10px 30px;
+    border: solid #000000 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    border-radius: 0px 50px;
+    transition : 980ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    }
+    
+.button:hover{
+    transition : 980ms;
+    padding: 10px 51px;
+    transform : translateY(-8px);
+    background: linear-gradient(176deg, #3b48fc 0%, #000661 100%);
+    color: #ffffff;
+    border: solid 3px #4100a3;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 3rem;
+}
+
+#container-endereco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.insira{
+    padding-top: 1.1rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
